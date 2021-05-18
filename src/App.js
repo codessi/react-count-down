@@ -1,7 +1,7 @@
 //https://codepen.io/search/pens?q=react+countdown+&cursor=ZD0xJm89MCZwPTQ=
-import './App.css';
 
 import React from 'react'
+import './App.css';
 
 const SET_ENDTIME = 'SET_ENDTIME';
 const SET_TIMELEFT = 'SET_TIMELEFT';
