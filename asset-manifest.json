@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-count-down/static/css/main.ea1455b2.chunk.css",
+    "main.css": "/react-count-down/static/css/main.5317a402.chunk.css",
     "main.js": "/react-count-down/static/js/main.dd0e1934.chunk.js",
     "main.js.map": "/react-count-down/static/js/main.dd0e1934.chunk.js.map",
     "runtime-main.js": "/react-count-down/static/js/runtime-main.210c3c0c.js",
@@ -8,13 +8,13 @@
     "static/js/2.06462831.chunk.js": "/react-count-down/static/js/2.06462831.chunk.js",
     "static/js/2.06462831.chunk.js.map": "/react-count-down/static/js/2.06462831.chunk.js.map",
     "index.html": "/react-count-down/index.html",
-    "static/css/main.ea1455b2.chunk.css.map": "/react-count-down/static/css/main.ea1455b2.chunk.css.map",
+    "static/css/main.5317a402.chunk.css.map": "/react-count-down/static/css/main.5317a402.chunk.css.map",
     "static/js/2.06462831.chunk.js.LICENSE.txt": "/react-count-down/static/js/2.06462831.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.210c3c0c.js",
     "static/js/2.06462831.chunk.js",
-    "static/css/main.ea1455b2.chunk.css",
+    "static/css/main.5317a402.chunk.css",
     "static/js/main.dd0e1934.chunk.js"
   ]
 }
