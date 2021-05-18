@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/react-count-down/static/css/main.fdecc5b5.chunk.css",
-    "main.js": "/react-count-down/static/js/main.f78dab7e.chunk.js",
-    "main.js.map": "/react-count-down/static/js/main.f78dab7e.chunk.js.map",
+    "main.js": "/react-count-down/static/js/main.8c77418a.chunk.js",
+    "main.js.map": "/react-count-down/static/js/main.8c77418a.chunk.js.map",
     "runtime-main.js": "/react-count-down/static/js/runtime-main.210c3c0c.js",
     "runtime-main.js.map": "/react-count-down/static/js/runtime-main.210c3c0c.js.map",
-    "static/js/2.3385d256.chunk.js": "/react-count-down/static/js/2.3385d256.chunk.js",
-    "static/js/2.3385d256.chunk.js.map": "/react-count-down/static/js/2.3385d256.chunk.js.map",
+    "static/js/2.06462831.chunk.js": "/react-count-down/static/js/2.06462831.chunk.js",
+    "static/js/2.06462831.chunk.js.map": "/react-count-down/static/js/2.06462831.chunk.js.map",
     "index.html": "/react-count-down/index.html",
     "static/css/main.fdecc5b5.chunk.css.map": "/react-count-down/static/css/main.fdecc5b5.chunk.css.map",
-    "static/js/2.3385d256.chunk.js.LICENSE.txt": "/react-count-down/static/js/2.3385d256.chunk.js.LICENSE.txt"
+    "static/js/2.06462831.chunk.js.LICENSE.txt": "/react-count-down/static/js/2.06462831.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.210c3c0c.js",
-    "static/js/2.3385d256.chunk.js",
+    "static/js/2.06462831.chunk.js",
     "static/css/main.fdecc5b5.chunk.css",
-    "static/js/main.f78dab7e.chunk.js"
+    "static/js/main.8c77418a.chunk.js"
   ]
 }
