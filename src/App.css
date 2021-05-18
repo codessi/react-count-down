@@ -29,68 +29,16 @@ html, body {
   height: 100vh;
 }
 
-.display__time-left {
-  transition: all 1.2s;
-  font-weight: 800;
-  font-size: 18rem;
-  width: 620px;
-  margin: 0;
-  color: white;
-}
-
-.display__time-left.timer-running,
-.display__time-left.timer-not-running {
-  background: rgba( 255, 255, 255 );
-  opacity: 90%;
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 10.0px );
-  -webkit-backdrop-filter: blur( 10.0px );
-  border-radius: 3px;
-  letter-spacing: 1rem;
-}
 
 
 
-.display__time-left.timer-not-running:after {
-  transition: all 1.2s;
-  position: absolute;
-  content: "";
-  top: 5vw;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  transform: scale(1.1);
-  filter: blur(5vw);
-  background: linear-gradient(270deg, #0fffc1, #7e0fff);
-  background-size: 200% 200%;
-}
 
-.display__time-left.timer-running:after {
-  transition: all 1.2s;
-  position: absolute;
-  content: "";
-  top: 5vw;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  transform: scale(1.1);
-  filter: blur(5vw);
-  background: linear-gradient(270deg, #0fffc1, #7e0fff);
-  background-size: 200% 200%;
-  animation: animateGlow 5s ease infinite;
-}
 
-.timer {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+
+
+
+
+
 
 .timer__controls {
   display: flex;
