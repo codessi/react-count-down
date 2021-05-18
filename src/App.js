@@ -167,8 +167,8 @@ function App() {
         <button onClick={() => startTimer(1200)} className="timer__button">20m</button>
         <button onClick={() => startTimer(3600)} className="timer__button">1h</button>
       </div>
-      <div className={`display`}>
-        <h1 className={`display__time-left ${((remainderSeconds > 0) || (minutesLeft > 0)) ? `timer-running` : 'timer-not-running'}`}>{`${minutesLeft}:${remainderSeconds % 60 < 10 ? '0' : '' }${remainderSeconds % 60}`}</h1>
+      <div className='display'>
+        <h1 className={`display__time-left ${((remainderSeconds > 0) || (minutesLeft > 0)) ? `timer-running` : `timer-not-running`}`}>{`${minutesLeft}:${remainderSeconds % 60 < 10 ? '0' : '' }${remainderSeconds % 60}`}</h1>
         <p className="display__end-time">{`Done At ${adjustedHour}:${endMinutes < 10 ? '0' : ''}${endMinutes}`}</p>
       </div>
 
