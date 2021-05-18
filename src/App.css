@@ -6,3 +6,33 @@ body {
   text-align: center;
   background: #212;
 }
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #0fffc1;
+  background-size: 200% 200%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: none;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.App {
+  height: 100vh;
+}
+
+.display__time-left {
+  transition: all 1.2s;
+  font-weight: 800;
+  font-size: 18rem;
+  width: 620px;
+  margin: 0;
+  color: white;
+}
