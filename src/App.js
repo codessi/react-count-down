@@ -1,4 +1,5 @@
 //https://codepen.io/search/pens?q=react+countdown+&cursor=ZD0xJm89MCZwPTQ=
+// study reducer react  https://www.youtube.com/watch?v=kK_Wqx3RnHk
 
 import React from 'react'
 import './App.css';
