@@ -49,7 +49,7 @@ function reducer(state, action) {
 }
 
 function App() {
-  const [inputSeconds, setInputSeconds] = React.useState(0);
+  // const [inputSeconds, setInputSeconds] = React.useState(0);
   const [state, dispatch] = React.useReducer(reducer, initialState);
   const { adjustedHour, endMinutes, remainderSeconds, seconds, minutesLeft, paused } = state;
 
@@ -144,19 +144,19 @@ function App() {
     setPaused(!paused);
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    dispatch({
-      type: SET_SECONDS,
-      payload:{
-        seconds: inputSeconds
-      }
-    })
-  }
+  // function handleSubmit(event) {
+  //   event.preventDefault();
+  //   dispatch({
+  //     type: SET_SECONDS,
+  //     payload:{
+  //       seconds: inputSeconds
+  //     }
+  //   })
+  // }
 
-  function handleChange(event) {
-    setInputSeconds(event.target.value);
-  }
+  // function handleChange(event) {
+  //   setInputSeconds(event.target.value);
+  // }
 
   return (
     <div className="App">
